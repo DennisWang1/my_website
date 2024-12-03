@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My website</title>
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="background-image bg1"></div>
+        <div class="background-image bg2"></div>
+    </div>
+    <div class="container">
+        <!-- Left section -->
+        <div class="left-side">
+            <h1 class="name">ChunBo Wang</h1>
+            <div class="intro-box">
+                <p>Welcome to my personal website!<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May your path be lined with stars and dreams.</p>
+            </div>
+            <!-- Add social icons -->
+            <div class="social-icons">
+                <a href="https://github.com/DennisWang1" target="_blank">
+                    <img src="icon/github.png" alt="GitHub Icon">
+                </a>
+                <a href="https://www.linkedin.com/in/dennis-wang-490053289/" target="_blank">
+                    <img src="icon/linkedIn.png" alt="LinkedIn Icon">
+                </a>
+            </div>
+        </div>
+        <!-- Right section -->
+        <div class="right-side">
+            <!-- Date and time display -->
+            <div class="time-box">
+                <div id="dateDisplay"></div>
+                <div id="timeDisplay"></div>
+            </div>
+            <!-- Menu items -->
+            <div class="menu-items">
+                <div class="menu-item" data-section="about">
+                    <img src="icon/user.png" alt="About me icon" class="menu-icon">
+                    About me
+                </div>
+                <div class="menu-item" data-section="education">
+                    <img src="icon/graduation-cap.png" alt="Education icon" class="menu-icon">
+                    Education
+                </div>
+                <div class="menu-item" data-section="work">
+                    <img src="icon/team.png" alt="Work Experience icon" class="menu-icon">
+                    Work Experience
+                </div>
+                <div class="menu-item" data-section="project">
+                    <img src="icon/project.png" alt="Project icon" class="menu-icon">
+                    Project
+                </div>
+                <div class="menu-item" data-section="contact">
+                    <img src="icon/contact-mail.png" alt="Contact me icon" class="menu-icon">
+                    Contact me
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content display area -->
+    <div class="content-overlay" id="contentOverlay">
+        <div class="content-container">
+            <span class="close-button">&times;</span>
+            <div id="contentArea">
+                <!-- Dynamic content will load here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
