@@ -102,8 +102,8 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'about':
                 content = `
                     <h2>About Me</h2>
-                    <p>Hi, I'm Dennis Wang, a Computer Engineering undergraduate at the University of British Columbia, driven by a passion for innovation in both hardware and software. With expertise spanning Java, C/C++, Python, and FPGA design, I bring creativity to both digital and physical systems. My journey includes integrating complex systems, exploring AI-driven code generation, and hands-on projects like building a fully functional iPod with FPGA and designing an intelligent, web-controlled turret.</p>
-                    <p>I am dedicated to continuous learning, exploring algorithms, and developing impactful solutions. Connect with me to explore engineering that bridges imagination and real-world applications.</p>
+                        <p>Hi, I'm Chunbo Wang, a Computer Engineering student at the University of British Columbia, passionate about creating impactful solutions through innovative technologies. With a focus on blending software and hardware expertise, my work spans areas like FPGA design, AI-driven systems, and robotics. Highlights include building a fully functional iPod on FPGA and implementing advanced algorithms for autonomous navigation in F1Tenth projects.</p>
+                        <p>I thrive on exploring new challenges, pushing the boundaries of technology, and transforming ideas into reality. Let's connect and create engineering solutions that make a difference!</p>
                 `;
                 break;        
             case 'education':
@@ -113,13 +113,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         <ul>
                             <li>
                                 <strong>University of British Columbia</strong> (Expected April 2026)
-                                <br>Bachelor of Applied Science - Computer Engineering
-                                <br><em>CGPA: 85.7%</em>
-                                <br>Courses:
-                                <ul>
-                                    <li>Circuit Analysis I: 100%</li>
-                                    <li>Digital Systems Design: 94%</li>
-                                </ul>
+                                <br>Bachelor of Applied Science - Computer Engineering (Co-op)
+                                <br><em>CGPA: 86.1%</em>
                             </li>
                         </ul>
                     </div>
@@ -145,9 +140,10 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <strong>Logiciel Sun Inc</strong>, Toronto, ON (July 2024 - Present)
                                 <br>AI and Machine Learning Researcher (Part-time Remote)
                                 <ul>
-                                    <li>Managed gathering, cleansing, and organization of datasets using tools (Pandas and SQL), contributing to development of machine learning models and algorithms</li>
-                                    <li>Researching for the AI code generation project, comparing the strengths and weaknesses of different code generation frameworks.</li>
-                                    <li>Collaborated with stakeholders to identify project requirements and translate into structured data models and process flows for smooth implementation</li>
+                                    <li>Developed workflows based on enterprise knowledge bases to automate and optimize code generation processes</li>
+                                    <li>Fine-tuned and retrained Hugging Face models to align with specific client requirements, improving accuracy by 6%</li>
+                                    <li>Collaborated with clients to gather requirements and translate them into actionable project strategies</li>
+                                    <li>Researched and evaluated AI code generation frameworks to identify the best-fit solutions for project needs</li>
                                 </ul>
                             </li>
                         </ul>
@@ -159,6 +155,24 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div id="project">
                         <h2>Projects</h2>
                         <ul>
+                            <li>
+                                <strong>AI-powered Note-taking Website</strong> (January 2025 - Present)
+                                <ul>
+                                    <li>Developed a note-taking website using Next.js and Editor.js, integrating a seamless and user-friendly interface</li>
+                                    <li>Implemented real-time autofill functionality powered by fine-tuned AI models selected and optimized from Hugging Face for enhanced performance</li>
+                                    <li>Optimized AI models through RAG and fine-tuning to align with specific use cases, improving the relevance and accuracy of autofill recommendations</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>F1tenth / EEG-controlled-racecar</strong> (September 2024 - January 2025)
+                                <ul>
+                                    <li>Implemented advanced control and path planning algorithms with python (PID, Pure Pursuit, Disparity Extender, RRT*, A*) to achieve exceptional performance in both RViz simulations and on the physical F1tenth car</li>
+                                    <li>Designed and trained deep learning neural networks to classify EEG data into four categories: left, right, stop, and rest, enabling real-time control of a racecar</li>
+                                    <li>Achieved 95% accuracy for fixed waveform predictions and 50% accuracy for real-time predictions</li>
+                                </ul>
+                            </li>
+                            <br>
                             <li>
                                 <strong>iPod (FPGA)</strong> (May 2024 - June 2024)
                                 <ul>
